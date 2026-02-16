@@ -1,0 +1,12 @@
+[project]
+name = "password_manager"
+version = "0.1.0"
+description = "Secure Password Manager CLI with AES-256 and SQLite"
+authors = [{name = "Mohammad Ali Naseri", email = "ma.naseri.uk@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = ["pycryptodome", "click", "bcrypt"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
